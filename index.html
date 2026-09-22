@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#5b1830" />
+    <title>ROSÉ - Beauty for You</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7-icons/css/framework7-icons.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="panel panel-left panel-cover">
+            <div class="menu-header">
+                <div><h2>ROSÉ</h2><p>Tu espacio de belleza</p></div>
+            </div>
+
+            <div class="list panel-menu">
+                <ul>
+                    <li><a href="/inicio/" class="panel-close menu-active"><i class="f7-icons">house</i><span>Inicio</span></a></li>
+                    <li><a href="/categorias/" class="panel-close"> <i class="f7-icons">square_grid_2x2</i><span>Categorías</span></a></li>
+                    <li><a href="/inicio/#destacados" class="panel-close"><i class="f7-icons">heart</i><span>Favoritos</span></a></li>
+                    <li><a href="/perfil/" class="panel-close"><i class="f7-icons">person_crop_circle</i><span>Perfil</span></a></li>
+                </ul>
+            </div>
+
+            <div class="menu-footer">
+                <a href="/acerca/" class="panel-close">
+                    Acerca de nosotros
+                </a>
+
+                <a href="/login/" class="panel-close cerrar-sesion">
+                    Cerrar sesión
+                </a>
+            </div>
+        </div>
+        <div class="view view-main view-init" data-url="/"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
